@@ -1,0 +1,11 @@
+{
+    "name": "drupal/qrcodeforproduct",
+    "description": "This module help to generate QR code",
+    "type": "drupal-custom-module",
+   
+    "require": {
+        "chillerlan/php-qrcode": "^4.3"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

@@ -1,0 +1,6 @@
+name: QR code for product List
+type: module
+description: 'Please Add Qr code for the products of Jugaad Patches.'
+core_version_requirement: ^8.9 || ^9
+dependencies:
+  - node

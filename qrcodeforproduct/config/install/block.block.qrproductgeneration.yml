@@ -1,0 +1,28 @@
+uuid: 2699b291-71ba-428e-a720-9931441f908b
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - qrcodeforproduct
+  theme:
+    - olivero
+id: qrproductgeneration
+theme: olivero
+region: sidebar
+weight: 0
+provider: null
+plugin: qrproduct
+settings:
+  id: qrproduct
+  label: 'Qr Product Generation'
+  label_display: '0'
+  provider: qrcodeforproduct
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      products: products

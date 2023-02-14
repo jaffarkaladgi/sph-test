@@ -1,0 +1,18 @@
+uuid: 39e20608-9fb3-42f1-bcd7-50f48c2f9b99
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Products
+type: products
+description: 'Please add the content type that can be used to add <em>Products</em>.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

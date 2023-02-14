@@ -1,0 +1,3 @@
+services:
+  qr_code_product:
+    class: Drupal\qrcodeforproduct\Service\QrCodeproduct
